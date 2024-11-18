@@ -1,0 +1,111 @@
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header .logo h1 {
+    color: #f3ba2f; /* Binance-like yellow */
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+section h3 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li::before {
+    content: '•';
+    color: #f3ba2f;
+    margin-right: 8px;
+}
+
+/* Estilos de firma */
+.signatures {
+    margin-top: 30px;
+}
+
+.signature-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.signature {
+    text-align: center;
+}
+
+.signature-line {
+    width: 200px;
+    height: 2px;
+    background-color: #333;
+    margin: 10px auto 0;
+}
+
+.signature-image {
+    width: 200px;
+    margin-top: 10px;
+}
+
+/* Botones */
+footer .actions {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer .actions button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+footer .actions .accept {
+    background-color: #4caf50;
+}
+
+footer .actions .decline {
+    background-color: #f44336;
+}
