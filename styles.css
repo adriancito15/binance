@@ -36,6 +36,11 @@ header h2 {
     margin-top: 10px;
 }
 
+header p {
+    color: #666;
+    font-size: 14px;
+}
+
 section h3 {
     font-size: 20px;
     color: #444;
@@ -72,6 +77,7 @@ ul li::before {
 
 .signature {
     text-align: center;
+    margin-right: 20px;
 }
 
 .signature-line {
@@ -86,26 +92,12 @@ ul li::before {
     margin-top: 10px;
 }
 
-/* Botones */
-footer .actions {
-    margin-top: 30px;
+/* Pie de página */
+footer {
+    margin-top: 40px;
     text-align: center;
+    font-size: 14px;
+    color: #999;
 }
+``
 
-footer .actions button {
-    font-size: 16px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #fff;
-}
-
-footer .actions .accept {
-    background-color: #4caf50;
-}
-
-footer .actions .decline {
-    background-color: #f44336;
-}
