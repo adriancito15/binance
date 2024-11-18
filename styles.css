@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #111;
-    color: #ddd;
+    background-color: #121212;
+    color: #f5f5f5;
     overflow: hidden;
 }
 
@@ -15,7 +15,7 @@ body {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #222;
+    background-color: #1c1c1c;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
@@ -26,8 +26,8 @@ header {
 }
 
 header h1 {
-    font-size: 24px;
-    color: #f00;
+    font-size: 26px;
+    color: #e60000;
     text-transform: uppercase;
 }
 
@@ -35,8 +35,8 @@ header h1 {
     max-height: 500px;
     overflow-y: auto;
     border: 1px solid #444;
-    padding: 10px;
-    background-color: #000;
+    padding: 15px;
+    background-color: #222;
     border-radius: 8px;
     margin-bottom: 30px;
 }
@@ -47,21 +47,21 @@ header h1 {
 }
 
 .message {
-    margin-bottom: 10px;
-    padding: 8px;
+    margin-bottom: 15px;
+    padding: 10px;
     background-color: #333;
-    border-radius: 5px;
+    border-radius: 6px;
     font-size: 14px;
     line-height: 1.4;
 }
 
 .username {
-    color: #f00;
+    color: #e60000;
     font-weight: bold;
 }
 
 .message-text {
-    color: #eee;
+    color: #f5f5f5;
 }
 
 .timestamp {
@@ -79,4 +79,5 @@ footer {
 footer p {
     margin-top: 20px;
 }
+
 
