@@ -1,103 +1,82 @@
-/* Estilos básicos */
-body {
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f4f4f6;
-    color: #333;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #111;
+    color: #ddd;
+    overflow: hidden;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 50px auto;
-    background: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
 }
 
 header {
     text-align: center;
-    border-bottom: 2px solid #eaeaea;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
-header .logo h1 {
-    color: #f3ba2f; /* Binance-like yellow */
-    font-size: 32px;
-    font-weight: bold;
-    margin: 0;
-}
-
-header h2 {
-    color: #333;
+header h1 {
     font-size: 24px;
-    margin-top: 10px;
+    color: #f00;
+    text-transform: uppercase;
 }
 
-header p {
-    color: #666;
-    font-size: 14px;
+.chat-container {
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
-section h3 {
-    font-size: 20px;
-    color: #444;
-    margin-bottom: 10px;
-}
-
-p, li {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-}
-
-ul {
-    list-style: none;
-    padding-left: 20px;
-}
-
-ul li::before {
-    content: '•';
-    color: #f3ba2f;
-    margin-right: 8px;
-}
-
-/* Estilos de firma */
-.signatures {
-    margin-top: 30px;
-}
-
-.signature-block {
+.chat-box {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.username {
+    color: #f00;
+    font-weight: bold;
+}
+
+.message-text {
+    color: #eee;
+}
+
+.timestamp {
+    font-size: 12px;
+    color: #888;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 12px;
+}
+
+footer p {
     margin-top: 20px;
 }
-
-.signature {
-    text-align: center;
-    margin-right: 20px;
-}
-
-.signature-line {
-    width: 200px;
-    height: 2px;
-    background-color: #333;
-    margin: 10px auto 0;
-}
-
-.signature-image {
-    width: 200px;
-    margin-top: 10px;
-}
-
-/* Pie de página */
-footer {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 14px;
-    color: #999;
-}
-``
 
